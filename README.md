@@ -1,4 +1,4 @@
-# Dr. Ahmed Albishri - Academic Portfolio Website
+# Ahmed Albishri - Academic Portfolio Website
 
 A modern, responsive personal academic portfolio website showcasing research, projects, education, and professional experience.
 

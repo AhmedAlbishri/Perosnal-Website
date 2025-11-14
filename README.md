@@ -25,45 +25,6 @@ Visit the live [[website]](https://ahmedalbishri.com/)
 - **Typed.js** - JavaScript typing animation library (CDN with local fallback)
 - **Font Awesome 4.3.0** - Icon library (via CDN)
 
-## 📦 Installation & Deployment
-
-### Local Development
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AhmedAlbishri/Perosnal-Website.git
-   cd ahmedalbishri.github.io
-   ```
-
-2. Open `index.html` in your web browser or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js (http-server)
-   npx http-server
-   ```
-   
-## 📁 Project Structure
-
-```
-.
-├── assets/
-│   ├── css/
-│   │   └── style.css          # Main stylesheet
-│   ├── img/
-│   │   ├── favicon/           # Favicon files
-│   │   ├── Ahmed.png          # Profile image
-│   │   ├── KAU_logo.png       # University logos
-│   │   ├── UMKC_logo.png
-│   │   └── ...
-│   ├── resume/
-│   │   └── Dr. Ahmed_Albishri_Resume.pdf
-│   └── vendor/
-│       └── typed.js/          # Typed.js library (fallback)
-├── index.html                 # Main HTML file
-└── README.md                  # This file
-```
 
 ## 🎨 Customization
 

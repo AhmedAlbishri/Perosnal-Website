@@ -4,7 +4,7 @@ A modern, responsive personal academic portfolio website showcasing research, pr
 
 ## 🌐 Live Website
 
-Visit the live website: [https://ahmedalbishri.github.io/](https://ahmedalbishri.github.io/)
+Visit the live [[website]](https://ahmedalbishri.com/)
 
 ## ✨ Features
 
@@ -31,7 +31,7 @@ Visit the live website: [https://ahmedalbishri.github.io/](https://ahmedalbishri
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AhmedAlbishri/ahmedalbishri.github.io.git
+   git clone https://github.com/AhmedAlbishri/Perosnal-Website.git
    cd ahmedalbishri.github.io
    ```
 
@@ -43,20 +43,7 @@ Visit the live website: [https://ahmedalbishri.github.io/](https://ahmedalbishri
    # Using Node.js (http-server)
    npx http-server
    ```
-
-### GitHub Pages Deployment
-
-1. Create a repository named `<your-username>.github.io` (or use an existing repository)
-2. Push the code to the `main` or `master` branch
-3. Go to repository Settings → Pages
-4. Select the branch and folder (usually `/root`)
-5. Your site will be live at `https://<your-username>.github.io`
-
-**Note:** If using a custom repository name, update the base URL in:
-- Open Graph meta tags (`og:url`)
-- Canonical URL (`<link rel="canonical">`)
-- All absolute URLs in the HTML
-
+   
 ## 📁 Project Structure
 
 ```

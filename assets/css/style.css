@@ -585,7 +585,8 @@ main {
 }
 
 .edge-link,
-.chrome-link {
+.chrome-link,
+.firefox-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -598,7 +599,8 @@ main {
 }
 
 .edge-icon,
-.chrome-icon {
+.chrome-icon,
+.firefox-icon {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -725,6 +727,56 @@ main {
   text-align: center;
   position: relative;
   border-bottom: 2px solid var(--color-border);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.education-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: 180% 180%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.12;
+  z-index: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  filter: blur(0.5px);
+}
+
+.education-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
+  opacity: 0.7;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.education-header:hover::before {
+  opacity: 0.2;
+  transform: scale(1.08);
+}
+
+.education-phd .education-header::before {
+  background-image: url('../img/UMKC_logo.png');
+}
+
+.education-masters .education-header::before {
+  background-image: url('../img/UMKC_logo.png');
+}
+
+.education-bachelors .education-header::before {
+  background-image: url('../img/KAU_logo.png');
 }
 
 .education-degree-badge {
@@ -739,10 +791,14 @@ main {
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: none;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .education-logo-container {
   margin: var(--spacing-sm) 0;
+  position: relative;
+  z-index: 1;
 }
 
 .education-logo-container a {

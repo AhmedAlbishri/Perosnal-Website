@@ -74,10 +74,10 @@
     <ul class="sidebar-nav">
       <li><a href="#intro"><i class="fa fa-home"></i><span>Home</span></a></li>
       <li><a href="#about" class="active"><i class="fa fa-user"></i><span>About</span></a></li>
-      <li><a href="#student-projects"><i class="fa fa-users"></i><span>Student Projects</span></a></li>
-      <li><a href="#projects"><i class="fa fa-folder"></i><span>Personal Projects</span></a></li>
-      <li><a href="#research"><i class="fa fa-file-text"></i><span>Research</span></a></li>
       <li><a href="#education"><i class="fa fa-graduation-cap"></i><span>Education</span></a></li>
+      <li><a href="#research"><i class="fa fa-file-text"></i><span>Research</span></a></li>
+      <li><a href="#projects"><i class="fa fa-folder"></i><span>Personal Projects</span></a></li>
+      <li><a href="#student-projects"><i class="fa fa-users"></i><span>Student Projects</span></a></li>
       <li><a href="#contact"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
       <!-- Resume link temporarily hidden
       <li><a href="assets/resume/Dr. Ahmed_Albishri_Resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i><span>Resume</span></a></li>
@@ -131,70 +131,105 @@
       </div>
     </section>
 
-
-    <!-- Fourth Section: Student Senior Projects -->
-    <section id="student-projects" class="section scrollspy">
-      <h3 class="section-title">Student Senior Projects</h3>
+    <!-- Third Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="section-title">Education</h3>
       <div class="container">
-        <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--spacing-lg); font-size: 1.1rem;">
-          Projects developed by my students at <a href="https://seu.edu.sa" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary);">Saudi Electronic University</a>
-        </p>
         <div class="row">
+          <!-- Education -->
           <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title">
-                  <span>PDF Simplifier</span>
-                </div>
-                <p class="card-description">
-                  A tool designed to simplify and optimize PDF documents for better accessibility and usability.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title">
-                  <span>SEU AI Companion</span>
-                  <i class="fa fa-chevron-down card-toggle"></i>
-                </div>
-                <p class="card-description">
-                  An intelligent AI companion system developed to assist students and faculty at Saudi Electronic University with personalized learning assistance.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <div class="card-title">
-                  <span>Details</span>
-                  <i class="fa fa-times card-close"></i>
-                </div>
-                <ul>
-                  <li><b>Type:</b> Web Application</li>
-                  <li>AI-powered study materials and explanations for SEU courses</li>
-                  <li>Smart quizzes with instant progress tracking</li>
-                  <li>CS plan and SEU regulations AI assistant</li>
-                  <li>Personalized dashboard for course completion and quiz performance</li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit website" href="https://www.seuproject.com/login.php" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-external-link"></i>
+            <div class="card education-card education-phd">
+              <div class="education-header">
+                <div class="education-degree-badge">Ph.D</div>
+                <div class="education-logo-container">
+                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/UMKC_logo.png" alt="University of Missouri - Kansas City Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=UMKC+Logo'; this.onerror=null;">
                   </a>
-                  <a aria-label="Watch demo video" href="https://www.youtube.com/watch?v=_0QEBlUwVw8" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-youtube-play"></i>
-                  </a>
+                </div>
+              </div>
+              <div class="card-content">
+                <h4 class="education-university-name">
+                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer" class="hoverline">University of Missouri - Kansas City</a>
+                </h4>
+                <div class="education-location">
+                  <i class="fa fa-map-marker"></i>
+                  <span>Kansas City, USA</span>
+                </div>
+                <div class="education-divider"></div>
+                <div class="education-degree-info">
+                  <div class="education-degree-item">
+                    <span class="education-label">Degree</span>
+                    <span class="education-value">Ph.D. in Computer Science</span>
+                  </div>
+                  <div class="education-degree-item">
+                    <span class="education-label">Specialization</span>
+                    <span class="education-value">Artificial Intelligence</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title">
-                  <span>Exam Questions Management</span>
+            <div class="card education-card education-masters">
+              <div class="education-header">
+                <div class="education-degree-badge">Master's</div>
+                <div class="education-logo-container">
+                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/UMKC_logo.png" alt="University of Missouri - Kansas City Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=UMKC+Logo'; this.onerror=null;">
+                  </a>
                 </div>
-                <p class="card-description">
-                  A comprehensive system for exam question generation, CLO/PLO mapping, export, and storage.
-                </p>
+              </div>
+              <div class="card-content">
+                <h4 class="education-university-name">
+                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer" class="hoverline">University of Missouri - Kansas City</a>
+                </h4>
+                <div class="education-location">
+                  <i class="fa fa-map-marker"></i>
+                  <span>Kansas City, USA</span>
+                </div>
+                <div class="education-divider"></div>
+                <div class="education-degree-info">
+                  <div class="education-degree-item">
+                    <span class="education-label">Degree</span>
+                    <span class="education-value">Master of Computer Science</span>
+                  </div>
+                  <div class="education-degree-item">
+                    <span class="education-label">Specialization</span>
+                    <span class="education-value">Data Science</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card education-card education-bachelors">
+              <div class="education-header">
+                <div class="education-degree-badge">Bachelor's</div>
+                <div class="education-logo-container">
+                  <a href="https://kau.edu.sa/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/KAU_logo.png" alt="King Abdulaziz University Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=KAU+Logo'; this.onerror=null;">
+                  </a>
+                </div>
+              </div>
+              <div class="card-content">
+                <h4 class="education-university-name">
+                  <a href="https://kau.edu.sa/" target="_blank" rel="noopener noreferrer" class="hoverline">King Abdulaziz University</a>
+                </h4>
+                <div class="education-location">
+                  <i class="fa fa-map-marker"></i>
+                  <span>Jeddah, Saudi Arabia</span>
+                </div>
+                <div class="education-divider"></div>
+                <div class="education-degree-info">
+                  <div class="education-degree-item">
+                    <span class="education-label">Degree</span>
+                    <span class="education-value">Bachelor of Information Technology</span>
+                  </div>
+                  <div class="education-degree-item">
+                    <span class="education-label">Track</span>
+                    <span class="education-value">Mobile and Cloud Computing</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -202,6 +237,20 @@
       </div>
     </section>
 
+    <!-- Fourth Section: Research Papers -->
+    <section id="research" class="section scrollspy">
+      <h3 class="section-title">Research Papers</h3>
+      <div class="container">
+        <div style="text-align: center; margin-bottom: var(--spacing-lg);">
+          <a href="https://scholar.google.com/citations?user=uV8rAZQAAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-link" aria-label="Google Scholar Profile">
+            <i class="fa fa-graduation-cap"></i>
+            <span>View on Google Scholar</span>
+          </a>
+        </div>
+        <div class="row">
+        </div>
+      </div>
+    </section>
     <!-- Fifth Section: Personal Projects -->
     <section id="projects" class="section scrollspy">
       <h3 class="section-title">Personal Projects</h3>
@@ -341,127 +390,75 @@
       </div>
     </section>
 
-    <!-- Sixth Section: Research Papers -->
-    <section id="research" class="section scrollspy">
-      <h3 class="section-title">Research Papers</h3>
+    <!-- Sixth Section: Student Senior Projects -->
+    <section id="student-projects" class="section scrollspy">
+      <h3 class="section-title">Student Senior Projects</h3>
       <div class="container">
-        <div style="text-align: center; margin-bottom: var(--spacing-lg);">
-          <a href="https://scholar.google.com/citations?user=uV8rAZQAAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-link" aria-label="Google Scholar Profile">
-            <i class="fa fa-graduation-cap"></i>
-            <span>View on Google Scholar</span>
-          </a>
-        </div>
+        <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--spacing-lg); font-size: 1.1rem;">
+          Projects developed by my students at <a href="https://seu.edu.sa" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary);">Saudi Electronic University</a>
+        </p>
         <div class="row">
-        </div>
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="section-title">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
           <div class="col s12 m6 l4">
-            <div class="card education-card education-phd">
-              <div class="education-header">
-                <div class="education-degree-badge">Ph.D</div>
-                <div class="education-logo-container">
-                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/img/UMKC_logo.png" alt="University of Missouri - Kansas City Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=UMKC+Logo'; this.onerror=null;">
-                  </a>
-                </div>
-              </div>
+            <div class="card">
               <div class="card-content">
-                <h4 class="education-university-name">
-                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer" class="hoverline">University of Missouri - Kansas City</a>
-                </h4>
-                <div class="education-location">
-                  <i class="fa fa-map-marker"></i>
-                  <span>Kansas City, USA</span>
+                <div class="card-title">
+                  <span>PDF Simplifier</span>
                 </div>
-                <div class="education-divider"></div>
-                <div class="education-degree-info">
-                  <div class="education-degree-item">
-                    <span class="education-label">Degree</span>
-                    <span class="education-value">Ph.D. in Computer Science</span>
-                  </div>
-                  <div class="education-degree-item">
-                    <span class="education-label">Specialization</span>
-                    <span class="education-value">Artificial Intelligence</span>
-                  </div>
+                <p class="card-description">
+                  A tool designed to simplify and optimize PDF documents for better accessibility and usability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-content">
+                <div class="card-title">
+                  <span>SEU AI Companion</span>
+                  <i class="fa fa-chevron-down card-toggle"></i>
+                </div>
+                <p class="card-description">
+                  An intelligent AI companion system developed to assist students and faculty at Saudi Electronic University with personalized learning assistance.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <div class="card-title">
+                  <span>Details</span>
+                  <i class="fa fa-times card-close"></i>
+                </div>
+                <ul>
+                  <li><b>Type:</b> Web Application</li>
+                  <li>AI-powered study materials and explanations for SEU courses</li>
+                  <li>Smart quizzes with instant progress tracking</li>
+                  <li>CS plan and SEU regulations AI assistant</li>
+                  <li>Personalized dashboard for course completion and quiz performance</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit website" href="https://www.seuproject.com/login.php" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-external-link"></i>
+                  </a>
+                  <a aria-label="Watch demo video" href="https://www.youtube.com/watch?v=_0QEBlUwVw8" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col s12 m6 l4">
-            <div class="card education-card education-masters">
-              <div class="education-header">
-                <div class="education-degree-badge">Master's</div>
-                <div class="education-logo-container">
-                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/img/UMKC_logo.png" alt="University of Missouri - Kansas City Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=UMKC+Logo'; this.onerror=null;">
-                  </a>
-                </div>
-              </div>
+            <div class="card">
               <div class="card-content">
-                <h4 class="education-university-name">
-                  <a href="https://www.umkc.edu/" target="_blank" rel="noopener noreferrer" class="hoverline">University of Missouri - Kansas City</a>
-                </h4>
-                <div class="education-location">
-                  <i class="fa fa-map-marker"></i>
-                  <span>Kansas City, USA</span>
+                <div class="card-title">
+                  <span>Exam Questions Management</span>
                 </div>
-                <div class="education-divider"></div>
-                <div class="education-degree-info">
-                  <div class="education-degree-item">
-                    <span class="education-label">Degree</span>
-                    <span class="education-value">Master of Computer Science</span>
-                  </div>
-                  <div class="education-degree-item">
-                    <span class="education-label">Specialization</span>
-                    <span class="education-value">Data Science</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m6 l4">
-            <div class="card education-card education-bachelors">
-              <div class="education-header">
-                <div class="education-degree-badge">Bachelor's</div>
-                <div class="education-logo-container">
-                  <a href="https://kau.edu.sa/" target="_blank" rel="noopener noreferrer">
-                    <img src="assets/img/KAU_logo.png" alt="King Abdulaziz University Logo" class="education-logo" loading="lazy" onerror="this.src='https://via.placeholder.com/150x150?text=KAU+Logo'; this.onerror=null;">
-                  </a>
-                </div>
-              </div>
-              <div class="card-content">
-                <h4 class="education-university-name">
-                  <a href="https://kau.edu.sa/" target="_blank" rel="noopener noreferrer" class="hoverline">King Abdulaziz University</a>
-                </h4>
-                <div class="education-location">
-                  <i class="fa fa-map-marker"></i>
-                  <span>Jeddah, Saudi Arabia</span>
-                </div>
-                <div class="education-divider"></div>
-                <div class="education-degree-info">
-                  <div class="education-degree-item">
-                    <span class="education-label">Degree</span>
-                    <span class="education-value">Bachelor of Information Technology</span>
-                  </div>
-                  <div class="education-degree-item">
-                    <span class="education-label">Track</span>
-                    <span class="education-value">Mobile and Cloud Computing</span>
-                  </div>
-                </div>
+                <p class="card-description">
+                  A comprehensive system for exam question generation, CLO/PLO mapping, export, and storage.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Eight Section: Contact -->
     <section id="contact" class="section scrollspy">
       <h3 class="section-title">Contact</h3>

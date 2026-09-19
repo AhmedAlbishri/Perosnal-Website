@@ -410,19 +410,6 @@ main {
   text-align: justify;
 }
 
-#about p.affiliation-note {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--color-text-light);
-  text-align: left;
-  margin-top: calc(-1 * var(--spacing-sm));
-}
-
-#about p.affiliation-note .affiliation-former {
-  color: var(--color-text-lighter);
-  margin-left: 0.35em;
-}
-
 /* Student Projects Section */
 #student-projects {
   background: var(--color-bg-alt);

@@ -40,7 +40,6 @@ Visit the live [[website]](https://ahmedalbishri.com/)
    }
    ```
 3. **Images**: Replace images in `assets/img/` directory
-4. **Resume**: Update PDF in `assets/resume/`
 
 ### Adding New Sections
 

@@ -28,6 +28,5 @@ yarn-error.log*
 *.tmp
 *.temp
 
-# Resume (temporarily ignored)
-assets/resume/
-Dr. Ahmed_Albishri_Resume.pdf
+# Wrangler local state
+.wrangler/
